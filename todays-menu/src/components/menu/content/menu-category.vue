@@ -1,7 +1,7 @@
 <template>
   <b-row class="p-3">
     <b-col  cols="4" class="p-0" v-for="(menuItem,menuIdx) in menuCategory" :key="menuItem+menuIdx">
-      <b-card  class="shadow bg-warning text-white fw-bold m-1">
+      <b-card  class="shadow-sm bg-warning text-white fw-bold m-1">
         {{menuItem.menuLabel}}
       </b-card>
     </b-col>
